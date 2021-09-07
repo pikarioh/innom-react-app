@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+	font-family: 'Quicksand', sans-serif;
+  	background-image: url(components/assets/home_bg.svg);
+	background-position: center;
+	background-size:contain;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+h2 {
+	font-weight: 600;
+}
+
+h3 {
+	font-weight: 500;
+}
+
+.section {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+	padding-bottom: 5%;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    .event-container {
+		width: 100%;
+		border-width: 8px 8px 0 8px;
+	}
+
+	.service-container {
+		width: 100%;
+		border-width: 0 8px 0 8px;
+	}
+	
+}

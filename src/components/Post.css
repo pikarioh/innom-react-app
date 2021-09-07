@@ -1,0 +1,41 @@
+.post {
+    width: 100%;
+    margin: 6% 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-img {
+    width: 45%;
+    border-radius: 30px;
+}
+
+.post-context{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.post-context p {
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 800px) {
+    .post {
+        flex-direction: column;
+    }
+
+    .post-context{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .post-context p {
+        font-size: 3vw;
+    }
+
+    .post-img {
+        width: 100%;
+    }
+}

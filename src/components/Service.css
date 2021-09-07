@@ -1,0 +1,38 @@
+.service-section{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+
+.service-container {
+	display: block;
+	width: 90%;
+	height: auto;
+	margin: auto;
+	padding: 8% 6% 8%;
+}
+
+.service-info {
+    width: 60%;
+    line-height: 30px;
+    color: white;
+}
+
+.service-card-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 700px) {
+    .service-info {
+        width: 100%;
+        line-height: 30px;
+    }
+
+    .service-card-box{
+        display: flex;
+        flex-direction: column;
+    }
+}

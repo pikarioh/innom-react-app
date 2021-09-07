@@ -1,0 +1,13 @@
+.event-section{
+    width: 100%;
+	height: auto;
+    background-color: #73C7A7;
+	color: white;
+}
+
+.event-container {
+	width: 90%;
+	height: auto;
+	margin: auto;
+	padding: 12% 4% 8%;
+}
