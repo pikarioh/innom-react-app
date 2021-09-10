@@ -1,17 +1,37 @@
 import React from 'react'
 
-const TestPost = () => {
+
+const TestPost = (props) => {
+
+    let styles = {
+        margin: '20px',
+        padding: '14px',
+        width: '600px',
+        height: 'auto',
+        backgroundColor: 'white',
+        borderRadius: '16px'
+    };
+
+
     return (
-        <div className="test-post">
-            <h1>Test Post</h1>
-            <p className="test-post-date">Skrevet Tirsdag 09.2021</p>
-            <p className="test-author">Thanathon Holm</p>
-            <p className="test-post-context">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo accumsan elementum. Duis posuere sagittis ante, eget blandit odio volutpat vitae. Nulla rhoncus efficitur gravida. Nulla feugiat vestibulum purus, ac vehicula lorem consectetur elementum. Phasellus et iaculis erat. Vestibulum arcu eros, vehicula sed rutrum at, pellentesque id lectus. Morbi mollis lacus quis lectus consectetur, sit amet mattis metus luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a magna ac libero pretium aliquam at vel ipsum. Sed sit amet lectus hendrerit, feugiat nisi quis, rutrum metus. Mauris convallis justo lacus, nec accumsan tortor eleifend et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla elementum ipsum eget diam accumsan, non scelerisque lacus vulputate. Maecenas eu dolor et diam suscipit pretium ullamcorper ut nulla.
-                <br></br>
-                Aliquam feugiat nisi et ipsum lacinia, eu tempor arcu finibus. Suspendisse felis felis, congue ac augue et, fermentum blandit velit. Donec accumsan massa at dui lacinia sodales. Suspendisse interdum fringilla nisl, pharetra tincidunt nulla. Nunc eleifend eu purus sit amet cursus. In accumsan quis odio ac molestie. Fusce ac libero ac velit scelerisque suscipit id vel mauris. Duis pharetra sem et augue pretium, eu faucibus odio pretium. Suspendisse luctus vehicula elit, et consequat nunc. Curabitur ornare urna varius magna vulputate fringilla. Maecenas non mi nibh. In id condimentum nunc. Maecenas pharetra efficitur purus vel scelerisque. Nullam imperdiet est ante, vel vehicula justo venenatis nec.
-            </p>
-            <h2>Meld deg på arrangementet</h2>
+        <div className="test-post" style={styles}>
+            <div className="header-box" style={{ position: 'relative', textAlign: 'left', color: 'white' }}>
+                <img src={props.image} style={{ width: '100%', height: '300px', objectFit: 'cover', borderRadius: '15px', marginBottom: '10px'}}/>
+                <h1 className="test-title" style={{ position: 'absolute', bottom: '10px', left: '12px', color: 'white'}}>{props.title}</h1>
+            </div>
+            
+            <h4 className="test-post-date">{props.date} , {props.author}</h4>
+            <p className="test-post-context">{props.text}</p>
+            <a className="test-button" href={props.link} 
+                style={{ 
+                    textDecoration: 'none', 
+                    color: 'inherit', 
+                    color: 'black', 
+                    fontSize: '24px'
+                }}
+                >
+                    {props.button}
+            </a>
         </div>
     )
 }
