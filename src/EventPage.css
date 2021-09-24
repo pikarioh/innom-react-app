@@ -1,0 +1,14 @@
+.EventPage {
+    background-color: aqua;
+    width: 100%;
+    height: auto;
+    align-content: center;
+    padding: 10% 5% 100px;
+}
+
+.EventField {
+    margin: auto;
+    background-color: white;
+    width: 80%;
+    height: auto;
+}

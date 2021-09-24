@@ -3,12 +3,15 @@ import Post from './components/Post'
 import TestPost from './components/TestPost'
 import about1 from './components/assets/about_01.jpg'
 import header1 from './components/assets/header_01.jpg'
+import './EventPage.css';
 
 const Events = () => {
 
     
     return (
-        <div>
+        <div className="EventPage">
+            <div className="EventField">
+
             <TestPost 
                 image={about1}
                 title="Test Post"
@@ -30,7 +33,12 @@ const Events = () => {
                 
                 Nulla at convallis lacus, nec malesuada eros. Sed pellentesque et ex eget euismod. Donec eget ligula quis ante blandit porta. Vivamus non blandit turpis. Donec diam ante, sollicitudin a elit id, placerat vulputate lectus. Curabitur facilisis neque quis blandit rutrum. Pellentesque laoreet erat lacus, eget aliquet dui volutpat eu. Nam ut erat velit. Integer fringilla, tellus at semper hendrerit, nulla augue interdum sapien, vel maximus enim libero nec enim. Sed vestibulum sit amet nibh vel imperdiet. Nunc sed egestas elit, non rutrum sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In blandit justo id lorem dapibus blandit id quis nibh. In fringilla vehicula est, quis convallis arcu molestie nec."
                 button="Meld deg på arrangementet"
-            />
+            /> 
+
+            </div>
+            
+
+            
         </div>
     )
 }

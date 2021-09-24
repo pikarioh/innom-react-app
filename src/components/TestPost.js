@@ -4,7 +4,6 @@ import React from 'react'
 const TestPost = (props) => {
 
     let styles = {
-        margin: '20px',
         padding: '14px',
         width: '600px',
         height: 'auto',

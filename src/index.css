@@ -8,7 +8,6 @@
 
 body {
 	font-family: 'Quicksand', sans-serif;
-  	background-image: url(components/assets/home_bg.svg);
 	background-position: center;
 	background-size:contain;
 }
