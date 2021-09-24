@@ -4,6 +4,7 @@ import TestPost from './components/TestPost'
 import about1 from './components/assets/about_01.jpg'
 import header1 from './components/assets/header_01.jpg'
 import './EventPage.css';
+import { Link } from 'react-router-dom'
 
 const Events = () => {
 
@@ -11,6 +12,8 @@ const Events = () => {
     return (
         <div className="EventPage">
             <div className="EventField">
+
+            <Link to="/">Tilbake</Link>
 
             <TestPost 
                 image={about1}
