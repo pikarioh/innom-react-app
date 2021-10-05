@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import "./Navbar.css"
 import { ReactComponent as InnomLogo } from './assets/innom_logo.svg'
 import { Link } from 'react-scroll'
-import { animateScroll as scroll} from 'react-scroll'
+import { animateScroll as scroll } from 'react-scroll'
 
 const Navbar = () => {
     const [click, setClick] = useState(false);

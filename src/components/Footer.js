@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Footer.css"
-import GoogleMaps from 'simple-react-google-maps'
 
 const Footer = () => {
     // eslint-disable-next-line
@@ -18,14 +17,14 @@ const Footer = () => {
             <div className='footer-kontakt'>
 
                 <div className='footer-map'>
-                    <GoogleMaps
-                        apiKey={'AIzaSyAy5EQpgdnGA90EqluE9Mq3yAg_BX8U9vg'}
-                        style={{height: "100%", width: "100%"}}
-                        zoom={12.5}
-                        center={{lat: 63.4180, lng: 10.4016}}
-                        markers={{lat: 63.4180, lng: 10.4016}} //optional
-                    />
-                    </div>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1784.4070550608021!2d10.390028116241501!3d63.43324598327785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466d319b511db0d7%3A0x13dd29ed3ceff2eb!2sOlav%20Tryggvasons%20gt.%2048%2C%207011%20Trondheim!5e0!3m2!1sno!2sno!4v1633083423293!5m2!1sno!2sno" 
+                        width="100%" 
+                        height="100%" 
+                        style={{ border: 0 }}
+                        allowfullscreen="" 
+                        loading="lazy"></iframe>
+               </div>
 
                 <div className='footer-box'>
                     <h3>Kontakt oss</h3>
@@ -35,7 +34,6 @@ const Footer = () => {
                         7011 Trondheim<br></br>
                         Norge<br></br>
                         <br></br>
-                        +47 900 00 000
                     </p>
                 </div>
 

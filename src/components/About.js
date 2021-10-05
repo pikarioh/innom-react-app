@@ -3,13 +3,12 @@ import ScrollableSection from 'react-update-url-on-scroll'
 import InstagramFeed  from 'react-ig-feed'
 import 'react-ig-feed/dist/index.css'
 import './About.css'
-import { FacebookProvider, Feed } from 'react-facebook';
+import { Link } from 'react-router-dom'
 import about1 from './assets/about_01.jpg'
 import ansatt1 from './assets/ansatt_01.jpg'
 
 const About = () => {
     return (
-        <ScrollableSection name={'omoss'}>
         <section className="about-section" id="about">
             <div className="about-container">
                 <div className="om-innom">
@@ -25,7 +24,7 @@ const About = () => {
                     <div className="ansatt-innom-text">
                         <h1>Ansatte i Innom</h1>
                         <p>Innom er utarbeidet av en tverrfaglig studentgruppe med 10 ansatte, som studerer industriell design, grafisk design, kunst, elektronisk systemdesign og innovasjon, og psykologi. Sammen har vi laget Innom, hvor kjerneverdiene våre tilstedeværelse, åpenhet og skapende har vært sentrale både på arbeidsplassen og i utformingen av tilbudet. Det faglige innholdet er utviklet av psykologstudentene.</p>
-                        <a className="ansatt-link" href=""><p>Finn ut mer om oss her >></p></a>
+                        <Link to="/omoss"><h2>Finn ut mer om oss her > </h2></Link>
                     </div> 
                 </div>
 
@@ -37,7 +36,6 @@ const About = () => {
                 
             </div>
         </section>
-        </ScrollableSection>
     )
 }
 

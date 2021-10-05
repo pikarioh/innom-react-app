@@ -1,7 +1,7 @@
 .service-section{
     width: 100%;
     height: auto;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .service-container {
@@ -15,7 +15,7 @@
 .service-info {
     width: 60%;
     line-height: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .service-card-box{
