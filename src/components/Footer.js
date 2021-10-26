@@ -5,16 +5,31 @@ const Footer = () => {
     // eslint-disable-next-line
     return (
         <div className='footer'>
-            <div className='social-media'>
-                <a href="https://www.facebook.com/kom.innom.oss" target="_blank">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
-                <a href="https://www.instagram.com/kom.innom/?fbclid=IwAR3i881fbKZYz9USerp0SFf_9e4lgf8SJ-kmpYHfkH-nOgdu23y3vYmQ2uo" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
             
             <div className='footer-kontakt'>
+
+                <div className="social-link">
+                    <div className="link-box">
+                        <a href="https://www.facebook.com/kom.innom.oss" target="_blank">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="https://www.facebook.com/kom.innom.oss" target="_blank" className="link-link"> 
+                            <p className="link-text">@kom.innom.oss</p>
+                        </a>
+                    </div>
+
+                    <div className="link-box">
+                        <a href="https://www.instagram.com/kom.innom/?fbclid=IwAR3i881fbKZYz9USerp0SFf_9e4lgf8SJ-kmpYHfkH-nOgdu23y3vYmQ2uo" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.instagram.com/kom.innom/?fbclid=IwAR3i881fbKZYz9USerp0SFf_9e4lgf8SJ-kmpYHfkH-nOgdu23y3vYmQ2uo" target="_blank" className="link-link">
+                            <p className="link-text">@kom.innom</p>
+                        </a>
+                    </div>
+            </div>
+
+                
+                
 
                 <div className='footer-map'>
                     <iframe 
