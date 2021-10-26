@@ -7,8 +7,8 @@ const EmployeePage = () => {
     return (
 
         <div className="AboutPage">
-            <Link to="/" style={{ position: 'sticky', zIndex: 3 }}><h3 className="back-button">Tilbake</h3></Link>
-            <h1 style={{ position: 'sticky' }}>Ansatte</h1>
+
+            <h1 style={{ color:'#0a6daf'}}>Ansatte</h1>
 
             <div className="AboutField">
                 

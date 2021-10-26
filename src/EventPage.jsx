@@ -2,7 +2,6 @@ import React from 'react'
 import Post from './components/Post'
 import './EventPage.css';
 import { Link } from 'react-router-dom'
-import Calendar from 'react-calendar'
 
 import event1 from './components/assets/event_01.png'
 
@@ -16,7 +15,7 @@ const Events = () => {
             <Link to="/"><h3 className="back-button">Tilbake</h3></Link>
 
             <div style={{ width: "400px" }}>
-                <Calendar />
+                
             </div>
 
             <Post
