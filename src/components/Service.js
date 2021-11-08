@@ -1,5 +1,4 @@
 import React from 'react'
-import ScrollableSection from 'react-update-url-on-scroll'
 import './Service.css'
 import Card from './Card'
 import card1 from './assets/card_01.jpg'
@@ -8,7 +7,6 @@ import card3 from './assets/card_03.jpg'
 
 const Service = () => {
     return (
-        <ScrollableSection name={'tjenester'}>
         <section className="service-section" id="service">
             <div className="service-container">
                 <div className="service-info">
@@ -36,7 +34,6 @@ const Service = () => {
                 
             </div>
         </section>
-        </ScrollableSection>
     )
 }
 
