@@ -3,14 +3,14 @@ import { Route, Link } from 'react-router-dom';
 
 import HomePage from "./HomePage";
 import EventPage from "./EventPage";
-import AboutPage from "./AboutPage"
+import AboutPage from './AboutPage';
 
 function App() {
   return (
     <div className="App">
       <Route exact path="/" component={HomePage} />
       <Route exact path="/eventer" component={EventPage} />
-      <Route exact path="/omoss" component={AboutPage} />
+      <Route exact path="/tilbud" component={AboutPage} />
     </div>
   )
 }

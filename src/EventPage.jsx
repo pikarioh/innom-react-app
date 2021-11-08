@@ -17,7 +17,7 @@ const Events = () => {
             <div style={{ width: "400px" }}>
                 
             </div>
-
+            
             <Post
                 image={event1}
                 title="Stueprat"

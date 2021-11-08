@@ -6,7 +6,7 @@ import './About.css'
 import { Link } from 'react-router-dom'
 import about1 from './assets/about_01.jpg'
 import ansatt1 from './assets/ansatt_01.jpg'
-import AboutPage from "../AboutPage"
+import TeamPage from "../TeamPage"
 
 const About = () => {
     return (
@@ -25,12 +25,11 @@ const About = () => {
                     <div className="ansatt-innom-text">
                         <h1>Ansatte i Innom</h1>
                         <p>Innom er utarbeidet av en tverrfaglig studentgruppe med 10 ansatte, som studerer industriell design, grafisk design, kunst, elektronisk systemdesign og innovasjon, og psykologi. Sammen har vi laget Innom, hvor kjerneverdiene våre tilstedeværelse, åpenhet og skapende har vært sentrale både på arbeidsplassen og i utformingen av tilbudet. Det faglige innholdet er utviklet av psykologstudentene.</p>
-                        <Link to="/omoss"><h2>Finn ut mer om oss her > </h2></Link>
                     </div> 
                 </div>
 
                 <div className="about-team" >
-                    <AboutPage />
+                    <TeamPage />
                 </div>
 
                 <div className="innom-insta">

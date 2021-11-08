@@ -24,7 +24,7 @@ const Navbar = () => {
                     <ul className={click ? "nav-menu active" : "nav-menu" }>
                         <li className='nav-item'>
                             <Link to="event" className='nav-links' smooth={true} duration={600} onClick={handleClick} >
-                                Event
+                                Eventer
                             </Link>
                         </li>
                         <li className='nav-item'>

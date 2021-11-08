@@ -1,9 +1,9 @@
 import React from 'react'
-import './AboutPage.css'
+import './TeamPage.css'
 import team01 from './components/assets/team_01.jpg'
 import { Link } from 'react-router-dom'
 
-const EmployeePage = () => {
+const TeamPage = () => {
     return (
 
         <div className="AboutPage">
@@ -98,4 +98,4 @@ const EmployeePage = () => {
     )
 }
 
-export default EmployeePage
+export default TeamPage
