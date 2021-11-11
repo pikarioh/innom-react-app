@@ -4,7 +4,7 @@ import AwesomeSliderStyles from 'react-awesome-slider/src/styles'
 import "./Header.css"
 import header1 from './assets/header_01.jpg'
 import header2 from './assets/header_02.JPG'
-import header3 from './assets/header_03.jpg'
+import header3 from './assets/header_03.JPG'
 
 const Header = () => {
     return (

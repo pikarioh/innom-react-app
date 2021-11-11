@@ -4,8 +4,10 @@ import "./Footer.css"
 const Footer = () => {
     // eslint-disable-next-line
     return (
+        
+
+        
         <div className='footer'>
-            
             <div className='footer-kontakt'>
 
                 <div className="social-link">

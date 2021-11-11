@@ -4,6 +4,7 @@ import Card from './Card'
 import card1 from './assets/card_01.jpg'
 import card2 from './assets/card_02.jpg'
 import card3 from './assets/card_03.jpg'
+import { Link } from 'react-router-dom'
 
 const Service = () => {
     return (
@@ -14,6 +15,7 @@ const Service = () => {
                     <p>Innom er et sosialt tilbud av og for studenter. Å komme innom betyr å komme ut av sin egen boble, få noen aha-opplevelser sammen med andre og å ha et sted å høre til. For å få til dette har innom tre hovedtilbud som beskrives under.</p>
                 </div>
 
+                <Link to="/tilbud">
                 <div className="service-card-box">
                     <Card
                         image={card1}
@@ -30,6 +32,7 @@ const Service = () => {
                         title='Innom 1:1'
                     />
                 </div>
+                </Link>
                 
                 
             </div>

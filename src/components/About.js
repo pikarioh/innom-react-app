@@ -3,7 +3,6 @@ import ScrollableSection from 'react-update-url-on-scroll'
 import InstagramFeed  from 'react-ig-feed'
 import 'react-ig-feed/dist/index.css'
 import './About.css'
-import { Link } from 'react-router-dom'
 import about1 from './assets/about_01.jpg'
 import ansatt1 from './assets/ansatt_01.jpg'
 import TeamPage from "../TeamPage"

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import "./Navbar.css"
 import { ReactComponent as InnomLogo } from './assets/innom_logo.svg'
-import { Link } from 'react-scroll'
+import { Link } from 'react-router-dom'
 import { animateScroll as scroll } from 'react-scroll'
 
 const Navbar = () => {
@@ -13,9 +13,9 @@ const Navbar = () => {
         <>
             <nav className='navbar'>
                 <div className='nav-container'>
-                    <div className='innom-logo' onClick={() => scroll.scrollToTop()}>
+                    <Link to="/" className='innom-logo' onClick={() => scroll.scrollToTop()}>
                         <InnomLogo />
-                    </div>
+                    </Link>
                     
                     <div className='nav-icon' onClick={handleClick}>
                         <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
@@ -23,23 +23,18 @@ const Navbar = () => {
 
                     <ul className={click ? "nav-menu active" : "nav-menu" }>
                         <li className='nav-item'>
-                            <Link to="event" className='nav-links' smooth={true} duration={600} onClick={handleClick} >
+                            <Link to="/eventer" className='nav-links' onClick={handleClick && scroll.scrollToTop()} >
                                 Eventer
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to="service" className='nav-links' smooth={true} duration={600} onClick={handleClick}>
+                            <Link to="/tilbud" className='nav-links' onClick={handleClick && scroll.scrollToTop()}>
                                 Tilbud
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to="about" className='nav-links' smooth={true} duration={600} onClick={handleClick}>
-                                Om Oss
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to="footer" className='nav-links' smooth={true} duration={600} onClick={handleClick}>
-                                Kontakt Oss
+                            <Link to="/" className='nav-links' onClick={handleClick}>
+                                Kontakt
                             </Link>
                         </li>
                     </ul>

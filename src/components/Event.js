@@ -2,8 +2,9 @@ import React from 'react'
 import './Event.css'
 import Post from './Post'
 import { Link } from 'react-router-dom'
+import { animateScroll as scroll } from 'react-scroll'
 
-import event1 from './assets/event_01.png'
+import event2 from './assets/event_02.jpg'
 
 const Event = () => {
     return (
@@ -12,15 +13,17 @@ const Event = () => {
                 <h1>Eventer</h1>
 
                 <Post
-                image={event1}
-                title="Stueprat"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eros purus, consequat non metus at, fermentum consequat felis. Proin laoreet, sapien ac sodales dictum, odio tellus eleifend enim, quis suscipit elit dolor vel felis. Praesent quis lectus sed nisi luctus molestie. Aliquam erat volutpat. Fusce consequat placerat scelerisque. Fusce ut urna vehicula, dapibus sapien vitae, eleifend ante. Etiam quam felis, laoreet sed accumsan in, interdum vitae metus. Praesent iaculis urna arcu, ut placerat justo consequat ac. Mauris mauris erat, iaculis non leo vehicula, tincidunt lacinia odio."
-                date="Fredag 30.08 kl. 18:00"
-                link="https://facebook.com"
+                image={event2}
+                title="Juleverksted!"
+                text="
+                Desember nærmer seg, så vi inviterer til juleverksted på Innom - som et hyggelig avbrekk i mørketiden og eksamenslesingen🎅 🎄 Det blir muligheter for å lage julekort, julehjerter og nøkkelringer. Vi serverer klementiner, pepperkaker og gløgg🧡 Lokalet er også åpent for de som ønsker å studere
+                "
+                date="Tirsdag 16.11 kl. 11:00"
+                link="https://fb.me/e/3Uz1oyACS"
                 />
 
 
-                <Link to="/eventer"><h2>Utforsk flere eventer her >> </h2></Link>
+                <Link to="/eventer" onClick={() => scroll.scrollToTop()} style={{ fontSize: '40px', textDecoration: 'none', color: 'inherit', color: 'white'}}>Flere eventer >></Link>
             </div>
         </section>
     )
