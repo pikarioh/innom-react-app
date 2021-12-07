@@ -14,15 +14,13 @@ const Event = () => {
 
                 <Post
                 image={event1}
-                title="Eksamens-boost!"
+                title="God Jul!"
                 text="
-                Har du ikke kommet i gang med eksamenslesingen du heller? Eller er du allerede veldig lei av lesesalen på Gløshaugen?📚
-Kom innom for en koseligere atmosfære og hyggelig stemning🥰 
-Vi serverer kaffe og te med noe godt attåt. Alle er velkomne - enten du vil nilese eller prokrastinere😉
-Kom som du er, alene eller med en venn💜
+                Innom har tatt juleferien. Vi ses igjen i januar!
+                Ønsker alle en riktig god jul! 🎅🎄
                 "
-                date="Onsdag 17.11 kl. 10-16"
-                link="https://fb.me/e/1ooiBQdwP"
+                date="Ses i januar!"
+                link="https://www.facebook.com/kom.innom.oss/?ref=page_internal"
             />
 
 
