@@ -33,7 +33,7 @@ const About = () => {
 
                 <div className="innom-insta">
                     <h1>#kominnom (@kom.innom)</h1>
-                    <InstagramFeed token="IGQVJVUlhheFoxN3R3ZAlh2S3Y1SUZAtQ2xFZAW4zbEY3ZAENQblZAOaWJwTzZAab2RWUjJRRHdyYjhCalZADZA0l2c1dmdWNUMERjQTRWSi0tWjBkdFN5M0NtcE5FV3A1eTI3MDIxWHdnVE9LeEs2dHBLQXBZAbQZDZD"  counter="6"/>
+                    <InstagramFeed token="IGQVJVMWpkUzYwcEdhbWlGLXN6ZA2NXbksyV1BJWUdQQi04VUhud0hacW8tSTNZASmdpemJQd1dLeUsySVNPQmQxRkYySEpYTmtkOFBzWlV1TW1mcV9GOWZAvNkd6TUR4akhyMHJRRUFYUkNxUlRWbUpxUgZDZD"  counter="6"/>
                 </div>
 
                 

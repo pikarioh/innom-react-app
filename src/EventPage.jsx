@@ -5,7 +5,7 @@ import './EventPage.css';
 import { Link } from 'react-router-dom'
 
 import calendar from './components/assets/calendar.png'
-import event1 from './components/assets/event_01.jpg'
+import event1 from './components/assets/event_01.png'
 import event2 from './components/assets/event_02.jpg'
 import event3 from './components/assets/event_03.jpg'
 
@@ -18,17 +18,26 @@ const Events = () => {
         <div className="EventPage">  
             <div className="EventField">
 
-            {/* <img src={calendar} className="innom-calendar" /> */}
+            <img src={calendar} style={{ width: '60%', margin: '0 auto 0'}} className="innom-calendar" />
             
 
             <Post
                 image={event1}
-                title="God Jul!"
+                title="Tegnekurs"
                 text="
-                Innom har tatt juleferien. Vi ses igjen i januar!
-                Ønsker alle en riktig god jul! 🎅🎄
+                Kom innom og tegne med oss! Kom som du er, eller ta med en venn! 🧡
                 "
-                date="Ses i januar!"
+                date="Søndag 20. februar kl.18:00"
+                link="https://www.facebook.com/kom.innom.oss/?ref=page_internal"
+            />
+
+            <Post
+                image={event2}
+                title="Burgersøndag!"
+                text="
+                Kom innom og lag burger med oss! Kom som du er, eller ta med en venn! 🧡
+                "
+                date="Søndag 27. februar kl.18:00"
                 link="https://www.facebook.com/kom.innom.oss/?ref=page_internal"
             />
         
